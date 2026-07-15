@@ -1,7 +1,7 @@
 /* Service worker 't Nief Bokske — cache-first met netwerk-fallback.
    Verhoog het versienummer in CACHE bij elke release, dan halen
    geïnstalleerde apps de nieuwe bestanden op. */
-const CACHE = "bokske-v10";
+const CACHE = "bokske-v11";
 const ASSETS = [
   "./",
   "./index.html",
