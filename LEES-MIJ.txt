@@ -24,7 +24,7 @@ gegevens staan lokaal op het toestel zelf.
 
 Update uitbrengen? Vervang de bestanden in de repository door de nieuwe
 versie. Belangrijk: in sw.js staat bovenaan een versienummer in de
-cache-naam ("bokske-v12"). Verhoog dat bij elke release (v13, v14, ...),
+cache-naam ("bokske-v13"). Verhoog dat bij elke release (v14, v15, ...),
 anders blijven geïnstalleerde apps de oude versie tonen. Na een update
 kan het nodig zijn de app één keer te sluiten en opnieuw te openen.
 
