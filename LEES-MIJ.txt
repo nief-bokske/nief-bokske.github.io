@@ -1,0 +1,177 @@
+'T NIEF BOKSKE — DRANKENTELLER
+==============================
+
+Deze map bevat de volledige app: index.html, sw.js, manifest.webmanifest,
+vier iconen en dit bestand. Er is geen server of database nodig; alle
+gegevens staan lokaal op het toestel zelf.
+
+
+1. OP GITHUB PAGES ZETTEN
+-------------------------
+1. Maak een gratis account op https://github.com (als je er nog geen hebt).
+2. Klik rechtsboven op "+" > "New repository". Geef de repository een naam,
+   bv. "bokske", zet ze op "Public" en klik "Create repository".
+3. Klik op "uploading an existing file" (of ga naar "Add file" > "Upload
+   files") en sleep ALLE bestanden uit deze map erin: index.html, sw.js,
+   manifest.webmanifest, icon-180.png, icon-192.png, icon-512.png,
+   icon-512-maskable.png, README.md (en eventueel dit bestand).
+   Klik onderaan op "Commit changes".
+4. Ga naar "Settings" > "Pages". Kies bij "Source" de optie
+   "Deploy from a branch", branch "main", map "/ (root)" en klik "Save".
+5. Na een paar minuten staat de app op:
+   https://nief-bokske.github.io/
+   (die link vind je ook terug op dezelfde Pages-pagina)
+
+Update uitbrengen? Vervang de bestanden in de repository door de nieuwe
+versie. Belangrijk: in sw.js staat bovenaan een versienummer in de
+cache-naam ("bokske-v20"). Verhoog dat bij elke release (v20, v21, ...),
+anders blijven geïnstalleerde apps de oude versie tonen. Na een update
+kan het nodig zijn de app één keer te sluiten en opnieuw te openen.
+
+
+2. INSTALLEREN OP DE TELEFOON (Kurt en helpers)
+-----------------------------------------------
+iPhone/iPad (Safari):
+  1. Open de link (https://nief-bokske.github.io/) in SAFARI.
+  2. Tik op de deelknop (vierkantje met pijl omhoog, onderaan).
+  3. Kies "Zet op beginscherm" en tik op "Voeg toe".
+  4. Op het beginscherm staat nu "'t Bokske" — opent als volwaardige app,
+     ook zonder internet.
+
+Android (Chrome):
+  1. Open de link in Chrome.
+  2. Tik op de drie puntjes rechtsboven en kies "App installeren"
+     (of "Toevoegen aan startscherm").
+  3. Bevestig — de app staat op het startscherm.
+
+
+De app start in het lichte thema. Via het tandwiel-knopje rechtsboven
+(Instellingen) kies je licht of donker; die keuze wordt per toestel
+onthouden. In diezelfde instellingen zitten ook de back-upknoppen en het
+veld waarin je de naam van dit toestel zet (bv. "Jan" of "Toog"). Die naam
+komt bij elke rekening te staan.
+
+
+2b. AFREKENEN, MET OF ZONDER NAAM
+---------------------------------
+Als je op "Afrekenen" tikt, vraagt de app nog of je er een naam aan wil
+geven (bv. "Tafel 3" of "Kaartersclub"). Dat is niet verplicht: tik
+gewoon op de grote knop "Afrekenen" en de rekening wordt bewaard zoals
+altijd. Vul je wél een naam in, dan zie je achteraf in de geschiedenis —
+en op het bord van de centrale iPad — van wie de rekening was. Namen die
+je al eens gebruikte staan als knopje klaar, dus meestal is het één tik.
+Verkeerd getikt? "Terug naar de teller" laat je rekening staan zoals ze
+was.
+
+Naast "Afrekenen" staat de knop "Later". Daarmee bewaar je de rekening
+als NOG TE BETALEN, met dezelfde naamkeuze. Op een heel smal toestel zit
+die keuze onder het prullenbak-knopje ("Op de rekening laten staan").
+
+Op het tabblad Geschiedenis staat een rood bolletje met het aantal
+openstaande rekeningen. Daar vind je onder "Openstaand" de volledige
+lijst; één tik op "Afrekenen" en de rekening is afgevinkt. Vergist? In
+het "Logboek" klap je de rekening open en zet je ze terug op "nog te
+betalen".
+
+DAGEN DICHTKLAPPEN. Zowel in het "Logboek" als op het tabblad
+"Bestellingen" kan je op een dag tikken om die dag dicht te klappen; het
+dagtotaal blijft dan staan. Met "Alles dichtklappen" rechtsboven doe je ze
+in één keer allemaal, en met dezelfde knop weer open. Bij het herstarten
+van de app staat alles opnieuw open, dus je kan niets "kwijt" spelen.
+
+BELANGRIJK over de cijfers: het dagtotaal is en blijft alles wat er die
+dag verkocht is, ook wat nog niet betaald is. Wat er nog openstaat, staat
+er als een apart rood bedrag bij ("open € 13,80"). Zo verandert een dag
+die al voorbij is niet meer als iemand drie dagen later komt betalen —
+handig voor de boekhouding. In het Excel-bestand staat daarvoor een extra
+kolom "Betaald".
+
+
+2c. BESTELLINGEN DOORSTUREN NAAR ÉÉN CENTRALE iPAD
+--------------------------------------------------
+Eén toestel is "de centrale iPad", de andere toestellen sturen hun
+bestelling daarnaartoe.
+
+Op de iPad:
+  1. Tandwiel > "Centrale iPad" > "Deze iPad is de centrale iPad".
+  2. Er verschijnt een code van 6 tekens. Die blijft 10 minuten geldig;
+     met "Nieuwe code" vraag je er altijd een nieuwe op.
+  3. Er komt een extra tabblad "Bestellingen" bij. Daar zie je alles wat er
+     doorgestuurd is — ook wat je op de iPad zélf aanslaat — per dag en met
+     een piepje bij elke nieuwe van een telefoon. Eén tik op "Afrekenen" en
+     de rekening is afgepunt; ze blijft in de lijst staan (zonder rode rand,
+     met "Betaald ✓"). Met de drie knopjes bovenaan kies je wat je ziet:
+     "Alles", "Nog te betalen" of "Betaald".
+  4. De iPad mag gewoon in slaap vallen of zelfs uit staan; je moet niets
+     instellen. Wat de telefoons doorsturen, blijft 14 dagen bewaard en komt
+     binnen zodra je de app weer opent. Enkel het meekijken en het piepje
+     werken niet terwijl de app dicht is.
+
+Op elke telefoon (één keer):
+  1. Tandwiel > vul bij "Dit toestel" je naam in.
+  2. Bij "Centrale iPad": de code van 6 tekens invullen en op
+     "Verbind met de centrale iPad" tikken.
+  3. Vanaf dan gaat elke rekening die je afrekent automatisch naar de iPad.
+
+BETAALD ZETTEN WERKT IN BEIDE RICHTINGEN. Punt je een openstaande rekening
+af op je eigen telefoon (Geschiedenis > Openstaand > "Afrekenen"), dan
+verdwijnt ze ook op de iPad uit "Nog te betalen" — en punt de iPad ze af,
+dan volgt jouw telefoon. Ook zonder internet: je telefoon onthoudt het en
+stuurt de juiste stand door zodra er weer verbinding is.
+
+STOPPEN MET DOORSTUREN — twee heel verschillende dingen:
+
+  * Een telefoon losmaken: tandwiel > "Deze telefoon losmaken". Dat kost
+    niets. Je rekeningen en je geschiedenis blijven op die telefoon staan
+    en je kan later opnieuw koppelen met een nieuwe code.
+
+  * De centrale iPad stopzetten: dat zit met opzet weggeborgen achter
+    "Meer" onderaan, en je moet er het woord STOP intypen. Doe dit alleen
+    als je écht wil herbeginnen. Dan worden álle telefoons losgekoppeld en
+    wordt de tussenserver leeggemaakt. Wat de iPad al binnengehaald heeft,
+    blijft in zijn eigen Geschiedenis staan; bestellingen die nog niet
+    binnengehaald waren, zijn definitief weg. Wil je enkel dat de code niet
+    meer werkt? Gebruik dan "Nieuwe code" — dat is veilig.
+
+Wat je ziet: bovenaan, links van het tandwiel, komt een bolletje. Groen =
+verbonden, oranje met een cijfer = er wachten nog rekeningen om verzonden
+te worden, rood = geen verbinding. Tik erop om de instellingen te openen.
+
+GEEN INTERNET? Afrekenen blijft altijd gewoon werken. De rekening staat
+meteen in je eigen geschiedenis en wordt automatisch doorgestuurd zodra er
+weer internet is en de app vooraan staat. Je kan ook zelf op "Nu opnieuw
+proberen" tikken. Enkel het doorsturen heeft internet nodig — de teller,
+de geschiedenis, het Excel-bestand en de back-up niet.
+
+De boekhouding: de centrale iPad neemt élke doorgestuurde rekening op in
+zijn eigen geschiedenis, ook de bestellingen van terwijl hij dicht was.
+Exporteer dus bij voorkeur vanaf de iPad — dat is het volledige overzicht.
+Open de app op de iPad daarom minstens één keer per twee weken: de
+doorgestuurde bestellingen blijven 14 dagen op de tussenserver staan en
+worden daarna gewist. Kwijt raken kan je ze niet: de telefoon die ze
+doorstuurde, houdt altijd zijn eigen kopie. De echte geschiedenis staat op
+de toestellen zelf, dus maak zeker back-ups (zie hieronder).
+
+
+3. BELANGRIJK: BACK-UP VAN DE GESCHIEDENIS
+------------------------------------------
+Alle rekeningen en prijzen worden enkel op het toestel zelf bewaard,
+per toestel apart. Er wordt niets gedeeld of geüpload.
+
+LET OP: wie in de instellingen van Safari of Chrome de browsergegevens
+of websitegegevens wist (of de app verwijdert), wist daarmee ook de
+volledige geschiedenis van de teller. Maak daarom af en toe een back-up.
+Dat kan op drie manieren:
+
+- "Exporteer (Excel)" (tabblad Geschiedenis): een opgemaakt
+  .xlsx-bestand met per dag de rekeningen en totalen. Opent
+  rechtstreeks in Excel of Numbers. Handig voor de boekhouding.
+- "Deel" / "Deel ..." (tabblad Geschiedenis): opent het deelmenu van
+  de telefoon, zodat je een dagoverzicht of de volledige geschiedenis
+  meteen via WhatsApp of mail kan doorsturen.
+- "Maak back-up" (tandwiel-knopje rechtsboven, Instellingen): bewaart
+  prijzen EN geschiedenis samen in een .json-bestand. Met "Zet back-up
+  terug" laad je dat bestand op een ander toestel (of een nieuwe
+  telefoon) weer in — bestaande rekeningen blijven staan, dubbels
+  worden overgeslagen. Zo zet je ook makkelijk dezelfde prijzen,
+  namen en kleuren op de telefoons van helpers.

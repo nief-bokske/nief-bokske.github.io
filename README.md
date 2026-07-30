@@ -18,10 +18,23 @@ alle gegevens blijven lokaal op het toestel zelf.
   (omzet, aantal consumpties, staafgrafiek, populairste dranken)
 - **Exporteren & delen**: opgemaakt Excel-bestand (.xlsx), dagrapporten via
   WhatsApp/mail (deelmenu van de telefoon)
+- **Naam bij een rekening**: bij het afrekenen kan je optioneel een naam meegeven
+  ("Tafel 3"), met snelkeuze uit de laatst gebruikte namen
+- **Nog te betalen**: met de knop "Later" blijft een rekening openstaan onder die
+  naam, met een badge en een aparte lijst; de dagomzet blijft ondertussen de
+  volle omzet, met het openstaande bedrag als apart cijfer
+- **Doorsturen naar één centrale iPad**: toestellen koppelen met een code van
+  6 tekens en sturen elke rekening door naar het tabblad "Bestellingen" van de
+  iPad — ook de iPad zelf: een overzicht per dag van alles wat binnenkwam, te
+  filteren op "Alles", "Nog te betalen" of "Betaald", waar één tik een rekening
+  afpunt
+- **Op tablet-formaat** schaalt alles mee: bredere kolom, grotere tegels en
+  ruimere knoppen vanaf 700 px
 - **Back-up & terugzetten**: prijzen én geschiedenis in één bestand — handig
   voor een nieuwe telefoon of om helpers dezelfde instellingen te geven
 - **Licht en donker thema**, in te stellen via het tandwiel rechtsboven
-- **Volledig offline** na de eerste keer openen
+- **Volledig offline** na de eerste keer openen; enkel het doorsturen naar de
+  iPad heeft internet nodig (en wat niet verzonden kon worden, wacht in een rij)
 
 ## Installeren op je telefoon
 
@@ -66,7 +79,12 @@ offline gebruik, het webmanifest en de app-iconen.
   geen trackers — de app werkt gegarandeerd offline
 - De Excel-export wordt volledig in de browser opgebouwd, zonder libraries
 - Opslag via `localStorage`; er verlaat nooit data het toestel, behalve wat je
-  zelf exporteert of deelt
+  zelf exporteert of deelt — of doorstuurt naar de centrale iPad
+- Voor dat doorsturen is er precies één externe oorsprong: een eigen kleine
+  Cloudflare Worker (gratis plan) die als doorgeefluik dient. Hij bewaart een
+  bestelling maximaal 14 dagen en is géén database van record; de echte
+  geschiedenis staat op de toestellen zelf. Elk toestel krijgt bij het koppelen
+  zijn eigen token — er staat dus geen enkel geheim in deze publieke bestanden.
 
 Gehost op GitHub Pages: Settings → Pages → "Deploy from a branch" →
 branch `main`, map `/ (root)`.
