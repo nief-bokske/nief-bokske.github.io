@@ -24,7 +24,7 @@ gegevens staan lokaal op het toestel zelf.
 
 Update uitbrengen? Vervang de bestanden in de repository door de nieuwe
 versie. Belangrijk: in sw.js staat bovenaan een versienummer in de
-cache-naam ("bokske-v20"). Verhoog dat bij elke release (v20, v21, ...),
+cache-naam ("bokske-v26"). Verhoog dat bij elke release (v20, v21, ...),
 anders blijven geïnstalleerde apps de oude versie tonen. Na een update
 kan het nodig zijn de app één keer te sluiten en opnieuw te openen.
 
@@ -52,6 +52,26 @@ veld waarin je de naam van dit toestel zet (bv. "Jan" of "Toog"). Die naam
 komt bij elke rekening te staan.
 
 
+2a. DE 24 KNOPPEN INSTELLEN
+--------------------------
+Op het tabblad "Prijzen" staan 24 rijen: één per knop op de teller, in
+dezelfde volgorde. Het cijfer links is de plaats van de knop. Per rij zet
+je het bedrag, eventueel een naam (max. 14 tekens) en een kleur. Laat je
+de naam leeg, dan toont de knop enkel de prijs.
+
+Kwam je van een oudere versie met 12 knoppen? Je eigen twaalf staan nog
+exact waar ze stonden. De twaalf nieuwe erachter zijn met voorbeelden
+ingevuld — loop ze één keer door en zet ze op wat jij verkoopt.
+
+De 24 knoppen passen samen op één scherm: je hoeft dus niet te scrollen om
+een drank te vinden. Ze schikken zich per toestel: op een telefoon en op een
+iPad rechtop staan ze 4 naast elkaar in 6 rijen, op een iPad die je liggend
+gebruikt 6 naast elkaar in 4 rijen. De knoppen worden daarbij automatisch wat
+kleiner of groter. Op een heel klein of oud toestel (of met het cijferklavier
+open) kan het scherm toch nog een stukje scrollen — er is dan gewoon te
+weinig plaats.
+
+
 2b. AFREKENEN, MET OF ZONDER NAAM
 ---------------------------------
 Als je op "Afrekenen" tikt, vraagt de app nog of je er een naam aan wil
@@ -62,6 +82,17 @@ en op het bord van de centrale iPad — van wie de rekening was. Namen die
 je al eens gebruikte staan als knopje klaar, dus meestal is het één tik.
 Verkeerd getikt? "Terug naar de teller" laat je rekening staan zoals ze
 was.
+
+ONDERAAN "OP DE REKENING". Daar staat alles wat je aansloeg, met tussen
+haakjes het aantal regels. Passen ze niet allemaal in het venstertje, dan
+verschijnt er rechts een scrollbalkje dat blijft staan: veeg in dat lijstje
+naar boven of beneden om de rest te zien. Tik op "Op de rekening" om het
+lijstje helemaal dicht of open te klappen.
+
+Op een knop waar je iets van aansloeg, staat linksboven een min-knopje (één
+eraf) en rechtsboven het aantal. De naam en de prijs blijven exact op hun
+plaats staan, zodat de knop niet onder je vinger wegschuift. Wat elke drank
+samen kost, zie je op zijn regel in "Op de rekening".
 
 Naast "Afrekenen" staat de knop "Later". Daarmee bewaar je de rekening
 als NOG TE BETALEN, met dezelfde naamkeuze. Op een heel smal toestel zit
