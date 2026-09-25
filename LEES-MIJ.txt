@@ -184,6 +184,31 @@ doorstuurde, houdt altijd zijn eigen kopie. De echte geschiedenis staat op
 de toestellen zelf, dus maak zeker back-ups (zie hieronder).
 
 
+2d. DE OPSLAG VAN EEN TOESTEL RAAKT OOIT VOL
+-------------------------------------------
+Een toestel houdt ongeveer 5 MB aan rekeningen bij. Dat is veel — ruim
+15 000 rekeningen — maar bij dagelijks gebruik kom je daar na een jaar of
+twee tegenaan, en de centrale iPad het snelst, want die neemt ook alles van
+de telefoons op.
+
+Onder het tandwiel staat daarom "Opslag": daar zie je hoeveel rekeningen er
+bewaard zijn en hoeveel plaats ze innemen. Raakt het krap, dan verschijnt er
+bovenaan het scherm een balkje. Wordt het écht vol, dan wordt dat balkje rood
+en meldt het dat nieuwe rekeningen NIET meer bewaard worden. Negeer dat niet:
+ze staan dan nog wel op het scherm, maar ze zijn na het opnieuw openen van de
+app weg.
+
+Tik op het balkje en kies "Plaats maken". Daar maak je eerst een back-up (dat
+bestand bevat álles, ook wat je daarna wist), en kies je dan wat weg mag:
+ouder dan twee jaar, ouder dan een jaar of ouder dan zes maanden. Openstaande
+rekeningen blijven altijd staan, hoe oud ze ook zijn — dat is geld dat nog
+moet binnenkomen. Wissen doe je alleen op dit toestel; de andere toestellen
+houden hun eigen geschiedenis.
+
+Heb je plaats gemaakt terwijl de opslag al vol stond, dan worden de
+rekeningen die ondertussen niet bewaard konden worden alsnog weggeschreven.
+
+
 3. BELANGRIJK: BACK-UP VAN DE GESCHIEDENIS
 ------------------------------------------
 Alle rekeningen en prijzen worden enkel op het toestel zelf bewaard,

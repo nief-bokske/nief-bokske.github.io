@@ -4,7 +4,7 @@
    de browser geen nieuwe service worker, installeert niets, en blijft ze de
    oude bestanden uit de cache tonen — ook na "Zoek update & herlaad".
    Nooit verlagen: een nummer dat al eens op een toestel stond, is opgebruikt. */
-const CACHE = "bokske-v26";
+const CACHE = "bokske-v27";
 const ASSETS = [
   "./",
   "./index.html",
